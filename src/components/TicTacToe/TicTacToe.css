@@ -1,0 +1,66 @@
+.container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.board-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    color: rgb(228, 228, 228);
+    font-size: 50px;
+}
+
+
+.menu-button {
+    border: none;
+    outline: none;
+    border-radius: 99999999px;
+    padding: 15px 35px;
+    background: #1f3540;
+    font-size: 26px;
+    color: rgb(173, 173, 245);
+    transition-duration: 200ms;
+    cursor: pointer;
+}
+
+.reset-button {
+    border: none;
+    outline: none;
+    border-radius: 99999999px;
+    padding: 15px 35px;
+    background: #bd0010;
+    font-size: 26px;
+    color: rgb(245, 173, 173);
+    transition-duration: 200ms;
+    cursor: pointer;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.menu-button:hover {
+    color: rgb(200, 200, 200);
+    background: rgb(21, 61, 80);
+}
+
+.reset-button:hover {
+    color: rgb(200, 200, 200);
+    background: rgb(228, 0, 0);
+}
+
+.history-button {
+    position: absolute;
+    color: white;
+    top: -40px;
+    right: 40px;
+    cursor: pointer;
+    font-size: 35px;
+    z-index: 40;
+}

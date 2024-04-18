@@ -1,0 +1,30 @@
+.leader-board {
+    position: absolute;
+    width: 400px;
+    top: 0;
+    right: 0;
+    background: #1e3541;
+    height: 100%;
+    z-index: 10;
+    max-height: 100vh;
+    overflow: auto;
+}
+
+.leader-board-title {
+    color: white;
+}
+
+.user-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.user-name {
+    color: white;
+    font-size: 20px;
+}
+
+.user-win {
+    color: rgb(0, 207, 0);
+    font-size: 20px;
+}
